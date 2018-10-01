@@ -112,6 +112,56 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>CustomPickList__c</fullName>
+        <description>For test pick list retrieve only deploy</description>
+        <externalId>false</externalId>
+        <label>CustomPickList</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Right_1</fullName>
+                    <default>false</default>
+                    <label>Right_1</label>
+                </value>
+                <value>
+                    <fullName>Right_2</fullName>
+                    <default>false</default>
+                    <label>Right_2</label>
+                </value>
+                <value>
+                    <fullName>Right_3</fullName>
+                    <default>false</default>
+                    <label>Right_3</label>
+                </value>
+                <value>
+                    <fullName>Left_1</fullName>
+                    <default>false</default>
+                    <label>Left_1</label>
+                </value>
+                <value>
+                    <fullName>Left_2</fullName>
+                    <default>false</default>
+                    <label>Left_2</label>
+                </value>
+                <value>
+                    <fullName>Left_3</fullName>
+                    <default>false</default>
+                    <label>Left_3</label>
+                </value>
+                <value>
+                    <fullName>Left_4</fullName>
+                    <default>false</default>
+                    <label>Left_4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
@@ -372,6 +422,27 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <recordTypes>
+        <fullName>CustomRecordType</fullName>
+        <active>true</active>
+        <description>CustomRecordType for test retrieve only pick list</description>
+        <label>CustomRecordType</label>
+        <picklistValues>
+            <picklist>CustomPickList__c</picklist>
+            <values>
+                <fullName>Right_1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Right_2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Right_3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
