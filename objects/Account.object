@@ -158,6 +158,11 @@
                     <default>false</default>
                     <label>Left_4</label>
                 </value>
+                <value>
+                    <fullName>Left_5</fullName>
+                    <default>false</default>
+                    <label>Left_5</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -429,6 +434,10 @@
         <label>CustomRecordType</label>
         <picklistValues>
             <picklist>CustomPickList__c</picklist>
+            <values>
+                <fullName>Left_1</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Right_1</fullName>
                 <default>false</default>
