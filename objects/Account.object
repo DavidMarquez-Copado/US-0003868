@@ -163,6 +163,11 @@
                     <default>false</default>
                     <label>Left_5</label>
                 </value>
+                <value>
+                    <fullName>Left_6</fullName>
+                    <default>false</default>
+                    <label>Left_6</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -436,6 +441,10 @@
             <picklist>CustomPickList__c</picklist>
             <values>
                 <fullName>Left_1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left_2</fullName>
                 <default>false</default>
             </values>
             <values>
