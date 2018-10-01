@@ -168,6 +168,11 @@
                     <default>false</default>
                     <label>Left_6</label>
                 </value>
+                <value>
+                    <fullName>Left_7</fullName>
+                    <default>false</default>
+                    <label>Left_7</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -438,6 +443,29 @@
         <description>CustomRecordType for test retrieve only pick list</description>
         <label>CustomRecordType</label>
         <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Inquiry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>CustomPickList__c</picklist>
             <values>
                 <fullName>Left_1</fullName>
@@ -445,6 +473,10 @@
             </values>
             <values>
                 <fullName>Left_2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left_3</fullName>
                 <default>false</default>
             </values>
             <values>
