@@ -173,6 +173,11 @@
                     <default>false</default>
                     <label>Left_7</label>
                 </value>
+                <value>
+                    <fullName>Left_8</fullName>
+                    <default>false</default>
+                    <label>Left_8</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -477,6 +482,10 @@
             </values>
             <values>
                 <fullName>Left_3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left_4</fullName>
                 <default>false</default>
             </values>
             <values>
