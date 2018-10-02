@@ -464,10 +464,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left_10</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Left_2</fullName>
                 <default>false</default>
             </values>
@@ -477,10 +473,6 @@
             </values>
             <values>
                 <fullName>Left_4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left_5</fullName>
                 <default>false</default>
             </values>
             <values>
