@@ -3,6 +3,7 @@
     <types>
         <members>Account.Active__c</members>
         <members>Account.CustomPickList__c</members>
+        <members>Account.CustomerPriority__c</members>
         <name>CustomField</name>
     </types>
     <version>43.0</version>
